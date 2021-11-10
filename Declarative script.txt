@@ -19,6 +19,7 @@ pipeline {
                 echo 'compileing...'
                 bat 'mvn compile'
             }
+        }
         stage('Deploy') {
             steps {
                 echo 'Deploying....'
